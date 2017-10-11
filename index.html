@@ -18,20 +18,24 @@
     <!--Fin section home -->
     <!-- Mon profil -->
     <section id="profiles">
+      <h1></h1>
       <div class="container-fluid text-center">
         <div class="row">
           <div class="col-md-6">
             <img alt="photoprofil" src="assets/img/victor.jpg" width="200px" height="200px"/>
           </div>
           <div class="col-md-6">
-            <div id="profile">
+            <div class="profile">
               <p>
                 <i class="fa fa-user" aria-hidden="true">   Andre Victor </i><br />
                 <i class="fa fa-birthday-cake" aria-hidden="true">   17/11/1995</i><br />
                 <i class="fa fa-map-marker" aria-hidden="true">   14 rue du champ des cosaques, 60400 NOYON</i><br />
                 <i class="fa fa-phone" aria-hidden="true">   06.63.08.26.42</i><br />
-                <i class="fa fa-envelope-o" aria-hidden="true"> <a href="mailto:andre.victor60@free.fr">  Andre.victor60@free.fr</a></i><br />
-                <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/AndreVictor60" target="_blank"> Github</a></i>
+                <div class="contact">
+                  <a href="mailto:andre.victor60@free.fr"><i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i></a>
+                  <a href="https://github.com/AndreVictor60" target="_blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+                  <a href="https://www.linkedin.com/in/victor-andre-33b139151/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+                </div>
               </p>
             </div>
           </div>
@@ -42,33 +46,35 @@
     <!-- Mon parcours -->
     <section id="course">
       <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Mon parcours</h2>
-        <ul>
-          <li>
-            <div>
-              <time datetime="2007">2007 - 2011</time>
-              <p>Brevet des colléges</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <time datetime="2011">2011 - 2014</time>
-              <p>Bac pro electrotechnique</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <time datetime="2014">2014 - 2016</time>
-              <p>BTS Service informatique aux organisations option SLAM</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <time datetime="2017">2017 - ?</time>
-              <p>En formation E2N</p>
-              <a href="http://formation.novei.fr/" target="_blank"><img alt="logoE2N" src="assets/img/e2n.jpg" width="100%" height="100%"/></a>
-            </div>
-          </li>
-      </ul>
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-md-3">
+            <ul>
+              <li>Brevet des colléges | 2007 - 2011</li>
+              <li>Collège Paul Eluard à Noyon</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Bac Pro Electrotechnique | 2011 - 2014</li>
+              <li>Lycée Charles de bovelles à Noyon</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>BTS Service informatique aux organisations | 2014 - 2016</li>
+              <li>Lycée Edouard Gand à Amiens</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Formation E2N | 2017 - ????</li>
+              <li>École du Numérique du Noyonnais</li>
+              <a href="http://formation.novei.fr/" target="_blank"><img src="assets/img/e2n.jpg" alt="logoE2N" /></a>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Fin section course -->
     <!-- Mon experience -->
@@ -126,7 +132,7 @@
           </div>
         <br><br>
       </div>
-    </div>
+      </div>
     </section>
     <!-- Fin section experience -->
     <!-- Mes compétences -->
@@ -139,7 +145,7 @@
           <div class="col-md-6">
             <h4>Windows</h4>
             <div class="progress">
-              <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+              <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
                 75%
               </div>
             </div>
@@ -147,7 +153,7 @@
             <div class="col-md-6">
               <h4>Linux</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
                   25%
                 </div>
               </div>
@@ -157,64 +163,61 @@
         <h3><i class="fa fa-language" aria-hidden="true"></i> Langages</h3>
         <br>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-3">
             <h4>HTML</h4>
             <div class="progress">
-              <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width:45%">
+              <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width:45%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
                 45%
               </div>
             </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
               <h4>CSS</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width:35%">
+                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width:35%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
                   35%
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
+
+            <div class="col-md-3">
               <h4>JavaScript</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width:5%">
-                  5%
+                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width:10%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
+                  10%
                 </div>
               </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-3">
                 <h4>PHP</h4>
                 <div class="progress">
-                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%; height:100%; font-size: 150%; padding-top: 15% ; background-color: rgb(115,115,38); color:black;">
                     50%
                   </div>
                 </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-3">
                 <h4>SQL</h4>
                 <div class="progress">
-                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                  <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
                     50%
                   </div>
                 </div>
               </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
               <h4>MYSQL</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
                   50%
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-3">
               <h4>Bootstrap</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:15%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;; background-color: rgb(115,115,38)">
                   15%
                 </div>
               </div>
@@ -224,42 +227,40 @@
         <h3><i class="fa fa-keyboard-o" aria-hidden="true"></i> Outils</h3>
         <br>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-3">
             <h4>Ligne de commande</h4>
             <div class="progress">
-              <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%">
+              <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
                 25%
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-3">
             <h4>Atom</h4>
             <div class="progress">
-              <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+              <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
                 65%
               </div>
             </div>
           </div>
-        </div>
-      <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-3">
           <h4>GitHub</h4>
           <div class="progress">
-            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
               40%
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-3">
           <h4>LAMP/WAMP</h4>
           <div class="progress">
-            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%; height:100%; font-size: 150%; padding-top: 15%; background-color: rgb(115,115,38); color:black;">
               50%
             </div>
           </div>
         </div>
       </div>
-    </div>
+     </div>
     </section>
     <!-- Fin section skill -->
     <!-- Mes projets -->
@@ -343,27 +344,28 @@
       </nav>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-  $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-      // Prevent default anchor click behavior
-        event.preventDefault();
-      // Store hash
-        var hash = this.hash;
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-        // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
+    <!-- Script pour le scroll automatic -->
+    <script>
+      $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          // Store hash
+          var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
     });
-  });
-</script>
+    </script>
   </body>
 </html>

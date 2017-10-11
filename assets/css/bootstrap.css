@@ -4252,7 +4252,7 @@ tbody.collapse.show {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  font-size: 0.75rem;
+  font-size: 1rem;
   line-height: 1rem;
   text-align: center;
   background-color: #e9ecef;
@@ -4263,7 +4263,7 @@ tbody.collapse.show {
   height: 1rem;
   line-height: 1rem;
   color: #fff;
-  background-color: #007bff;
+  background-color: ##173920;
   transition: width 0.6s ease;
 }
 
