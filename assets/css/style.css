@@ -41,8 +41,10 @@ footer{
 }
 /* Home */
 #home{
+  padding-top: 10%;
+  padding-left: 60%;
   height: 615px;
-  background: url('../img/code.jpg') no-repeat center fixed;
+  background: url('../img/codebody.jpg') no-repeat center fixed;
   background-size: cover;
 }
 /* Profil */
