@@ -25,7 +25,7 @@ body{
   /*background-color: rgb(25, 25, 25);*/
 }
 section{
-  border: 1px solid black;
+  border: 1px solid rgb(40,44,43);
   background-color: rgb(40,40,43);
   padding-bottom: 15px;
   padding-top: 15px;
@@ -57,6 +57,7 @@ footer{
 }
 #profiles img{
   border-radius: 150px 150px 150px 150px;
+  box-shadow: 2px 2px 1px 2px #595959;
 }
 /* Experience*/
 #experience li{
@@ -171,6 +172,7 @@ footer{
 #course img{
   border-radius: 40px;
   margin-top: 10px;
+  box-shadow: 2px 2px 2px 1px #595959;
 }
 #course img:hover{
   opacity: 0.6;
