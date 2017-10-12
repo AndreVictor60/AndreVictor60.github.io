@@ -101,6 +101,9 @@ footer{
 #hobbies img {
   display: block;
 }
+#centerhobbies{
+  margin-left: 5%;
+}
 
 .overlay {
   position: absolute;
