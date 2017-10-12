@@ -180,6 +180,9 @@ footer{
 #course li{
   list-style: none;
 }
+#course button{
+  margin-top: 5%;
+}
 
 
 /* TEST */
