@@ -34,7 +34,7 @@ header{
   background-color: rgb(77, 77, 80);
 }
 footer{
-  background-color: rgb(77, 77, 80);
+  background: linear-gradient(to bottom,  rgb(125,126,125) 0%,rgb(14,14,14) 100%);
   right: 0;
   left: 0;
   bottom: 0;
@@ -144,6 +144,7 @@ footer{
   text-align: center;
   margin-top: 10px;
   margin-bottom: 5px;
+
 }
 #nav a{
   display: inline-block;
@@ -151,6 +152,7 @@ footer{
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   text-decoration: none;
+
 }
 #nav li{
   list-style: none;
