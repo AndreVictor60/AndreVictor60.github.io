@@ -190,3 +190,10 @@ footer{
 
 
 /* TEST */
+.progress-bar-perso{
+  height:100%;
+  font-size: 150%;
+  background-color: rgb(115,115,38);
+  color:black;
+  padding-top: 1%;
+}
