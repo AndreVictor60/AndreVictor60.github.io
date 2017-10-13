@@ -84,6 +84,9 @@ footer{
   height:35%;
 }
 /* Projects */
+#projects button{
+  color: black;
+}
 #projects img{
   border: 1px solid black;
 }
