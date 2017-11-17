@@ -1,0 +1,20 @@
+{
+  "name": "AndreVictor60.github.io",
+  "homepage": "https://github.com/AndreVictor60/AndreVictor60.github.io",
+  "authors": [
+    "AndreVictor60 <andre.victor60@free.fr>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
