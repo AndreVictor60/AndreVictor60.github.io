@@ -9,27 +9,14 @@
     <title>CV - Victor Andre</title>
   </head>
   <body>
-      <div class="bgimg">
-          <div class="topleft">
-              <p>Logo</p>
-          </div>
-          <div class="middle">
-              <h1>COMING SOON</h1>
-              <hr>
-              <p>35 days</p>
-          </div>
-          <div class="bottomleft">
-              <p>Some text</p>
-          </div>
-      </div> 
     <!-- Mon home -->
-<!--    <section id="home">
+    <section id="home">
       <h1> Curriculum Vitae de Victor Andre</h1>
       <h1> Développeur WEB junior</h1>
-       Image arriére plan 
+      <!-- Image arriére plan -->
     </section>
-    Fin section home 
-     Mon profil 
+    <!--Fin section home -->
+    <!-- Mon profil -->
     <section id="profiles">
       <div class="container-fluid text-center">
         <div class="row">
@@ -37,7 +24,7 @@
             <img alt="photoprofil" src="assets/img/victor.jpg" width="200px" height="200px"/>
           </div>
           <div class="col-md-6">
-             Information perso 
+            <!-- Information perso -->
             <div class="profile">
               <p>
                 <i class="fa fa-user" aria-hidden="true">   Andre Victor </i><br />
@@ -45,7 +32,7 @@
                 <i class="fa fa-map-marker" aria-hidden="true">   14 rue du champ des cosaques, 60400 NOYON ( 50 min de Paris)</i><br />
                 <i class="fa fa-phone" aria-hidden="true">   06.63.08.26.42</i><br />
                 <div class="contact">
-                   Lien de contact 
+                  <!-- Lien de contact -->
                   <a href="mailto:andre.victor60@free.fr"><i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i></a>
                   <a href="https://github.com/AndreVictor60" target="_blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
                   <a href="https://www.linkedin.com/in/victor-andre-33b139151/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
@@ -56,12 +43,12 @@
         </div>
       </div>
     </section>
-     Fin section profil 
-     Mon parcours 
+    <!-- Fin section profil -->
+    <!-- Mon parcours -->
     <section id="course">
       <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Mon parcours</h2>
       <div class="container-fluid text-center">
-         Parcours scolaire / formation 
+        <!-- Parcours scolaire / formation -->
         <div class="row">
           <div class="col-md-3">
             <ul>
@@ -94,12 +81,12 @@
         </div>
       </div>
     </section>
-     Fin section course 
-     Mon experience 
+    <!-- Fin section course -->
+    <!-- Mon experience -->
     <section id="experience">
       <h2><i class="fa fa-line-chart" aria-hidden="true"></i> Mon expérience</h2>
           <br><br>
-           Parcours pro 
+          <!-- Parcours pro -->
           <div class="container-fluid text-center">
             <div class="row">
               <div class="col-md-4">
@@ -152,8 +139,8 @@
         </div>
       </div>
     </section>
-     Fin section experience 
-     Mes compétences 
+    <!-- Fin section experience -->
+    <!-- Mes compétences -->
     <section id="skill">
       <h2><i class="fa fa-plus" aria-hidden="true"></i> Mes compétences</h2>
       <div class="container-fluid" id="skillgame">
@@ -293,8 +280,8 @@
       </div>
      </div>
     </section>
-     Fin section skill 
-     Mes projets 
+    <!-- Fin section skill -->
+    <!-- Mes projets -->
     <section id="projects">
      <h2><i class="fa fa-code" aria-hidden="true"></i> Mes projets</h2>
       <div class="container-fluid text-center" >
@@ -326,8 +313,8 @@
             </div>
           </div>
     </section>
-     Fin section projects 
-     Mes loisirs 
+    <!-- Fin section projects -->
+    <!-- Mes loisirs -->
     <section id="hobbies">
       <h2><i class="fa fa-rocket" aria-hidden="true"></i> Mes loisirs</h2>
         <div class="container-fluid text-center">
@@ -359,10 +346,10 @@
           </div>
         </div>
     </section>
-     Fin section hobbies 
+    <!-- Fin section hobbies -->
 
     <footer>
-       Menu 
+      <!-- Menu -->
       <nav id="nav">
         <ul>
           <li><a href="#profiles">Home</a></li>
@@ -374,68 +361,38 @@
           <li><a href="documents.html">Mes documents</a></li>
         </ul>
       </nav>
-    </footer>-->
+    </footer>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Script pour le scroll automatic -->
     <script>
-        // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get todays date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now an the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000); 
-        //
-//
-//    function afficher(id){
-//      if(document.getElementById(id).style.display == 'none'){
-//        document.getElementById(id).style.display="block";
-//      }else{
-//        document.getElementById(id).style.display="none";
-//      }
-//    }
-//      $(document).ready(function(){
-//      // Add smooth scrolling to all links
-//      $("a").on('click', function(event) {
-//        // Make sure this.hash has a value before overriding default behavior
-//        if (this.hash !== "") {
-//          // Prevent default anchor click behavior
-//          event.preventDefault();
-//          // Store hash
-//          var hash = this.hash;
-//          // Using jQuery's animate() method to add smooth page scroll
-//          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-//          $('html, body').animate({
-//            scrollTop: $(hash).offset().top
-//          }, 800, function(){
-//            // Add hash (#) to URL when done scrolling (default click behavior)
-//            window.location.hash = hash;
-//          });
-//        } // End if
-//      });
-//    });
+    function afficher(id){
+      if(document.getElementById(id).style.display == 'none'){
+        document.getElementById(id).style.display="block";
+      }else{
+        document.getElementById(id).style.display="none";
+      }
+    }
+      $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          // Store hash
+          var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
     </script>
   </body>
 </html>
